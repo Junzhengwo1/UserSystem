@@ -1,0 +1,29 @@
+1.用户信息的增删查改操作
+    *登录
+    *查询列表
+    *添加
+    *删除
+    *修改
+
+    *删除选中的
+    *分页查询
+    *复杂条件查询
+2.设计：
+    *技术选型：Servlet+jsp+MySQl+JDBCTempleat+Durid+BeanUtils+tomcat
+    *数据库的设计：
+    creat table user(
+    id int primary key auto_increment,
+    name varchar(20) not null,
+    gender varchar(5),
+    age int,
+    address varchar(32),
+    qq varchar(20),e
+    email varchar(50)
+    );
+3.开发：
+    *环境搭建
+        1.创建数据库环境
+        2.创建项目，导入需要的jar包
+    *编码
+4.测试
+5.部署项目
